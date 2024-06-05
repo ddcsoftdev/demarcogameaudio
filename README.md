@@ -1,7 +1,7 @@
 
 # Sound Portfolio Website
 
-Sound Portfolio Website is a digital audio processing application developed to provide a variety of sound manipulation and audio effects. This project demonstrates the use of audio processing techniques and algorithms, offering functionalities like sound filtering, mixing, and effects application.
+Sound Portfolio Website is a portfolio website showcasing sound design projects and audio works. This website is developed to present and demonstrate various sound design skills and completed projects in an accessible and visually appealing format.
 
 ## Table of Contents
 
@@ -15,21 +15,20 @@ Sound Portfolio Website is a digital audio processing application developed to p
 
 ## Introduction
 
-Sound Portfolio Website is an audio processing application that allows users to manipulate and apply effects to audio files. It is designed to be an educational tool for understanding digital audio processing concepts and techniques.
+Sound Portfolio Website serves as an online portfolio for sound design projects, providing a platform to display audio works, project descriptions, and related media. It is designed to highlight the skills and experience of the sound designer.
 
 ## Features
 
-- Load and save various audio file formats.
-- Apply audio effects such as reverb, echo, and distortion.
-- Mix multiple audio tracks.
-- Visualize audio waveforms.
-- Simple and intuitive user interface.
+- Responsive web design.
+- Showcases various sound design projects.
+- Includes project descriptions and audio samples.
+- Easy navigation and user-friendly interface.
 
 ## Requirements
 
 To build and run Sound Portfolio Website, you need:
-- Java Development Kit (JDK) 8 or higher
-- A text editor or IDE for Java (e.g., IntelliJ IDEA, Eclipse)
+- A modern web browser (Chrome, Firefox, Safari, etc.)
+- A web server (optional for local development)
 
 ## Installation
 
@@ -40,30 +39,25 @@ git clone https://github.com/ddcsoftdev/Sound Portfolio Website.git
 cd Sound Portfolio Website
 ```
 
-Open the project in your preferred Java IDE.
+Open the `index.html` file in your preferred web browser to view the website locally.
 
 ## Usage
 
-### Running the Application
+### Viewing the Portfolio
 
-To run the application, compile the Java source files and execute the main class. You can do this from your IDE or using the command line.
+To view the portfolio, simply open the `index.html` file in your web browser. You can navigate through the various sections to explore different sound design projects and audio works.
 
-Using the command line:
-```sh
-javac -d bin src/com/ddcsoftdev/Sound Portfolio Website/*.java
-java -cp bin com.ddcsoftdev.Sound Portfolio Website.Sound Portfolio Website
-```
+### Hosting the Website
 
-### Basic Operations
+To host the website online, you can upload the files to a web server or use a hosting service like GitHub Pages.
 
-- **Load an audio file**: Use the "File" menu and select "Open" to load an audio file.
-- **Save an audio file**: Use the "File" menu and select "Save" to save the processed audio file.
-- **Apply audio effects**: Use the "Effects" menu to apply various audio effects to the loaded audio.
-- **Mix audio tracks**: Use the "Mix" menu to mix multiple audio tracks.
+For GitHub Pages:
+1. Create a new repository on GitHub and upload the project files.
+2. Enable GitHub Pages in the repository settings, selecting the main branch as the source.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and open a pull request to add new features, fix bugs, or improve documentation.
+Contributions are welcome! Please fork the repository and open a pull request to add new features, fix bugs, or improve the website.
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature-branch`).
